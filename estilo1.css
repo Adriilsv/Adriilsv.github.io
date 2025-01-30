@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family:Louis George Cafe;
+    }
+    
+    .contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    #canvas {
+    width: 100%;
+    height: 100%;
+    }
+    
+    #texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    }
+    
+    footer {
+    position: fixed;
+    COLOR:WHITE;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    background-color: #000000;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+    }
